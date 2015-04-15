@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <!-- Application string resources -->
+    <string name="app_name">PhotoViewer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+  <!--   Names of categories as string resources -->
+    <string-array name="Titles">
+        <item>Animals</item>
+        <item>Cars</item>
+        <item>Flowers</item>
+    </string-array>
+</resources>

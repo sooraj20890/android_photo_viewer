@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text view which iterates for categories displayed in list view of top fragment -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:padding="5dip"
+    android:textSize="20sp" 
+    android:gravity="center">
+
+</TextView>

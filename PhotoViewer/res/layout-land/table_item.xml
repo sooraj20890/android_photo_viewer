@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Table layout which has three table rows of images -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+    
+     <!-- Table row with two image views -->
+<TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+       >
+       <!--  Image view with width weight and equal width borders on all sides -->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="4dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginBottom="2dip"
+            android:scaleType="fitXY"   
+            android:onClick="firstImageMethod" />
+          <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginBottom="2dip"
+            android:scaleType="fitXY"  
+            android:onClick="secondImageMethod"  />
+        
+        
+ </TableRow>
+ 
+  <!-- Table row with two image views -->
+  <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         >    
+          <!--  Image view with width weight and equal width borders on all sides -->
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="2dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginBottom="2dip"
+            android:scaleType="fitXY" 
+           android:onClick="thirdImageMethod" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="2dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginBottom="2dip"
+            android:scaleType="fitXY"   
+           android:onClick="fourthImageMethod" />
+ </TableRow>
+ <!-- Table row with two image views -->
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         > 
+          <!--  Image view with width weight and equal width borders on all sides -->
+        <ImageView
+            android:id="@+id/imageView5"
+           android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginBottom="4dip"
+            android:scaleType="fitXY"
+            android:onClick="fifthImageMethod" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+           android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+             android:scaleType="fitXY"
+             android:layout_marginTop="2dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginBottom="4dip"
+            android:onClick="sixthImageMethod" />
+   
+ </TableRow>
+        
+</TableLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Portrait orientation layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activityFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:baselineAligned="false">
+  <!--  Top container for list fragment filling free space using weight-->
+    <FrameLayout
+        android:id="@+id/title_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+       >
+    </FrameLayout>
+ <!-- Bottom container for both image table fragment and full image fragment filling free space using weight-->
+    <FrameLayout
+        android:id="@+id/table_frame"
+        android:layout_width="match_parent"
+         android:layout_height="0dp"
+        android:layout_weight="7"
+        >
+    </FrameLayout>
+    
+</LinearLayout>

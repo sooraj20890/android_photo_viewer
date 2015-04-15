@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" >
+   <!--  Top fragment which has list of categories -->
+      <ListView
+        android:id="@android:id/list"        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+      </ListView>
+    <!--  Button in top fragment which is used to display the status using toast message onclick method statusToastDisplay is in mainactivity -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:layout_gravity="center_horizontal|bottom"
+        android:onClick="statusToastDisplay" />
+
+</LinearLayout>
